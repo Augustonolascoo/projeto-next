@@ -1,95 +1,18 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <div>
+      <h1 className={styles.title}>História de São João del Rei</h1>
+      <p className={styles.paragrafo}> 
+        São João del-Rei, localizada no estado de Minas Gerais, Brasil, tem uma rica história que remonta ao período colonial. Fundada oficialmente em 1709, a cidade surgiu em meio à 
+        corrida do ouro no Brasil, quando a região foi ocupada por bandeirantes e mineradores em busca de riquezas. O nome da cidade é uma homenagem ao rei João V de Portugal, que ajudou
+        a financiar a exploração das minas. <br/>São João del-Rei rapidamente se desenvolveu como um importante centro comercial e religioso, com a construção de igrejas e conventos, refletindo
+        a influência da arquitetura barroca. <br/>Ao longo dos séculos, a cidade passou por transformações significativas, mantendo um patrimônio histórico considerável. Hoje, é conhecida 
+        por seu centro histórico bem preservado, com edifícios coloniais e igrejas ornamentadas, o que a torna um importante destino turístico e cultural no Brasil. Além disso, 
+        São João del-Rei desempenhou um papel importante na Inconfidência Mineira, um movimento revolucionário contra o domínio colonial português.
+      </p>
+    </div>
   );
 }

@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    background-color: rgb(34, 218, 141);
+    height: 6vh;
+    list-style: none; 
+}
+
+.link1 {
+    color: white; 
+    text-decoration: none;
+    margin-left: 600px;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.link1 a {
+    color: inherit; /* Garante que o link herde a cor do pai */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.link1 :hover{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.link2 {
+    color: white; 
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.link2 a {
+    color: inherit; /* Garante que o link herde a cor do pai */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.link2 :hover{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.link3 {
+    color: white; 
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.link3 a {
+    color: inherit; /* Garante que o link herde a cor do pai */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+.link3 :hover{
+    font-size: 20px;
+    color: rgb(0, 0,0);
+}
+
+.link4 {
+    color: white; 
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.link4 a {
+    color: inherit; /* Garante que o link herde a cor do pai */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+.link4 :hover{
+    font-size: 20px;
+    color: rgb(0, 0,0);
+}
+
+.link5 {
+    color: white; 
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.link5 a {
+    color: inherit; /* Garante que o link herde a cor do pai */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+.link5 :hover{
+    font-size: 20px;
+    color: rgb(0, 0,0);
+}

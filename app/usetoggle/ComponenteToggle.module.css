@@ -1,0 +1,24 @@
+/* ComponenteToggle.module.css */
+
+.button {
+    background-color: #11cf76; /* Cor de fundo azul */
+    color: white;              /* Cor do texto */
+    border: none;              /* Remove a borda padrão */
+    border-radius: 5px;        /* Bordas arredondadas */
+    padding: 10px 20px;        /* Espaçamento interno (padding) */
+    font-size: 16px;           /* Tamanho da fonte */
+    cursor: pointer;           /* Muda o cursor para uma mãozinha ao passar o mouse */
+    transition: background-color 0.3s ease; /* Animação de transição para a cor de fundo */
+}
+
+.button:hover {
+    background-color: #139c68; /* Cor de fundo ao passar o mouse (escurecido) */
+}
+
+.button:focus {
+    outline: none; /* Remove o contorno padrão ao focar no botão */
+}
+
+.button:active {
+    background-color: #066b44; /* Cor de fundo quando o botão é clicado */
+}
